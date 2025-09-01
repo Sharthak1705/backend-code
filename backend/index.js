@@ -12,6 +12,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.get("/",()=>{
+    res.send("Hello World")
+})
 app.use("/profile", profileRoutes);
 
 const PORT = process.env.PORT || 5000;
