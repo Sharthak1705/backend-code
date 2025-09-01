@@ -7,7 +7,7 @@ function App() {
   const [skills, setSkills] = useState({});
   const [projects, setProjects] = useState([]);
 
-  const API_URL = "http://localhost:5000/profile";
+  const API_URL = "backend-code-o67w.vercel.app/profile";
 
   // Fetch all profiles
   useEffect(() => {
