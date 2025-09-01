@@ -31,7 +31,7 @@ It provides APIs for handling **Projects, skills and **.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone  <>
+git clone  <git clone https://github.com/Sharthak1705/backend-code.git>
 cd backend
 
 Install dependencies
